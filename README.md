@@ -73,8 +73,9 @@ php artisan migrate
 php artisan serve
 
 ##  Screenshots
->Users login & register
->![user_login_register](https://github.com/user-attachments/assets/ac390b27-45b5-422c-a448-de7d80ef0d9f)
+> Login & register
+>![user_login_register](https://github.com/user-attachments/assets/d265ffd2-b4ab-4da3-ae69-394847a86e2b)
+
 
 
 
