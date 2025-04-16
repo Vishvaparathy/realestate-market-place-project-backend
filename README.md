@@ -73,6 +73,25 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 
 >Roles
 >![Screenshot (777)](https://github.com/user-attachments/assets/de3686e3-ca54-4e62-a2e5-b57e0394d1f2)
+>
+>Some Screenshots of Testing
+>Register
+>![Screenshot (778)](https://github.com/user-attachments/assets/65ac02a2-fa38-4599-ae98-0e5c8d09a3f4)
+>login
+><img width="960" alt="login" src="https://github.com/user-attachments/assets/8e7b94b0-8716-4909-9a84-7d8e5585bd97" />
+>get properties
+>![Screenshot (779)](https://github.com/user-attachments/assets/f58630f3-cfd0-4afd-92a3-59677ebdcbea)
+>log out
+>![Screenshot (780)](https://github.com/user-attachments/assets/463fedcc-f445-4e10-be1a-c2d37bde9fa9)
+>otp request
+><img width="960" alt="otp" src="https://github.com/user-attachments/assets/f9726dd7-5d07-4997-8633-f7146df27033" />
+>Property listing
+><img width="960" alt="create_property" src="https://github.com/user-attachments/assets/b82d1494-8c84-489b-9821-9817565b10c8" />
+
+
+
+
+
 
 
 
