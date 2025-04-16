@@ -73,9 +73,6 @@ php artisan migrate
 php artisan serve
 
 ##  Screenshots
->Real estate market place database
->![Screenshot (772)](https://github.com/user-attachments/assets/510bb73c-866a-4fe8-823f-34699b33f01f)
-
 >Users login & register
 >![Screenshot (773)](https://github.com/user-attachments/assets/5cf90a76-581a-40a3-9cb2-9ebff7bfdf4d)
 
@@ -87,9 +84,6 @@ php artisan serve
 
 >Properties listing
 >![Screenshot (776)](https://github.com/user-attachments/assets/4204e8c7-a833-4d98-b58d-6678ea38f189)
-
->Roles
->![Screenshot (777)](https://github.com/user-attachments/assets/7af92c3c-5b7b-4fcd-9ff0-5d29378de4b1)
 
 >Some Screenshots of Testing
 >Register
