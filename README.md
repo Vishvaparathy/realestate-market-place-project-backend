@@ -56,4 +56,5 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 
 ##  Screenshots
 
-> You can insert screenshots here like:
+>![Screenshot (771)](https://github.com/user-attachments/assets/1d577ccb-3e2c-49a6-a56c-c4bfb6c5923a)
+
