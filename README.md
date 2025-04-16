@@ -3,7 +3,6 @@
 This is the backend API for the Real Estate Marketplace platform tailored to Sri Lanka. Built with **Laravel**, it supports property listings, requirements, subscriptions, multilingual support, and more.
 
 ---
-
 ## Tech Stack
 
 - Laravel 10.x
@@ -70,38 +69,28 @@ php artisan key:generate
 
 4.Configure database in .env, then run:
 php artisan migrate
-
 5.Start the dev server:
 php artisan serve
 
-
-
 ##  Screenshots
-
 >Real estate market place database
 >![Screenshot (772)](https://github.com/user-attachments/assets/510bb73c-866a-4fe8-823f-34699b33f01f)
-
 
 >Users login & register
 >![Screenshot (773)](https://github.com/user-attachments/assets/5cf90a76-581a-40a3-9cb2-9ebff7bfdf4d)
 
-
 >Otp Tequest
 >![Screenshot (774)](https://github.com/user-attachments/assets/4cb06298-727b-4b0a-b68b-b1de6a8e478a)
-
 
 >Subscription Plans
 >![Screenshot (775)](https://github.com/user-attachments/assets/8d56917a-5a55-4bf3-ab13-7ad0278d229e)
 
-
 >Properties listing
 >![Screenshot (776)](https://github.com/user-attachments/assets/4204e8c7-a833-4d98-b58d-6678ea38f189)
-
 
 >Roles
 >![Screenshot (777)](https://github.com/user-attachments/assets/7af92c3c-5b7b-4fcd-9ff0-5d29378de4b1)
 
->
 >Some Screenshots of Testing
 >Register
 >![Screenshot (778)](https://github.com/user-attachments/assets/b827b790-f544-454c-b5a5-accffaafc2fd)
