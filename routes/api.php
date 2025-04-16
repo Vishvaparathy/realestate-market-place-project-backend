@@ -10,6 +10,7 @@ use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\SocialAuthController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,12 +21,11 @@ Route::get('/test', function () {
     return response()->json(['status' => 'API is running']);
 });
 
-
-// Auth
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/otp/send', [AuthController::class, 'sendOtp']);
-Route::post('/otp/verify', [AuthController::class, 'verifyOtp']);
+Route::post('/otp/verify', [AuthController::class, 'verifyOtp'])->middleware('auth:sanctum');  // Use sanctum auth guard for token validation
+Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');  // Logout route, use sanctum for token invalidation
 
 // Social Auth
 Route::get('/auth/google/redirect', [SocialAuthController::class, 'redirectToGoogle']);
@@ -36,7 +36,6 @@ Route::get('/auth/google/callback', [SocialAuthController::class, 'handleGoogleC
 | Protected Routes (auth:sanctum)
 |--------------------------------------------------------------------------
 */
-
 Route::middleware('auth:sanctum')->group(function () {
 
     // User Info & Logout
@@ -45,8 +44,8 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/notifications', [UserController::class, 'getNotifications']);
 
     // Property Listings
+    Route::get('/properties', [PropertyController::class, 'index']); 
     Route::post('/properties', [PropertyController::class, 'store']);
-    Route::get('/properties', [PropertyController::class, 'index']);
     Route::get('/properties/{id}', [PropertyController::class, 'show']);
     Route::put('/properties/{id}', [PropertyController::class, 'update']);
     Route::delete('/properties/{id}', [PropertyController::class, 'destroy']);
@@ -100,8 +99,4 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('/reports', [AdminController::class, 'reportedListings']);
     });
 
-    
-    
 });
-
-

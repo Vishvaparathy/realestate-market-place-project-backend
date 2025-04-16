@@ -9,13 +9,13 @@ use Illuminate\Support\Facades\Validator;
 
 class PropertyController extends Controller
 {
-    // ✅ List all properties (paginated)
+    //  List all properties (paginated)
     public function index()
     {
         return Property::latest()->paginate(10);
     }
 
-    // ✅ Create a new property (merged multilingual + base fields)
+    // Create a new property (merged multilingual + base fields)
     public function store(Request $request)
     {
         // Validation
@@ -65,7 +65,7 @@ class PropertyController extends Controller
         return response()->json($property, 201);
     }
 
-    // ✅ Show a specific property
+    //  Show a specific property
     public function show($id)
     {
         $property = Property::find($id);
@@ -77,7 +77,7 @@ class PropertyController extends Controller
         return response()->json($property);
     }
 
-    // ✅ Update an existing property
+    //  Update an existing property
     public function update(Request $request, $id)
     {
         $validator = Validator::make($request->all(), [
@@ -112,7 +112,7 @@ class PropertyController extends Controller
         return response()->json($property);
     }
 
-    // ✅ Delete a property
+    //  Delete a property
     public function destroy($id)
     {
         $property = Property::find($id);
@@ -125,7 +125,7 @@ class PropertyController extends Controller
         return response()->json(['message' => 'Property deleted successfully']);
     }
 
-    // ✅ Admin: Approve a property listing and notify the user
+    //  Admin: Approve a property listing and notify the user
     public function approveProperty($id)
     {
         $property = Property::find($id);
