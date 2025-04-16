@@ -57,22 +57,23 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 ##  Screenshots
 
 >Real estate market place database
->![Screenshot (766)](https://github.com/user-attachments/assets/1cc6d622-c4b4-42b2-ba2b-42f0524832b7)
+>![Screenshot (772)](https://github.com/user-attachments/assets/698d0e6c-f603-4386-a590-9d264070f748)
 
 >Users login & register
->![Screenshot (770)](https://github.com/user-attachments/assets/e112660b-4ba2-4b3f-92c4-c741abfbd7d8)
+>![Screenshot (773)](https://github.com/user-attachments/assets/a55ad7e0-1a21-4c9a-aa8d-0a9161f492f1)
 
 >Otp Tequest
->![Screenshot (771)](https://github.com/user-attachments/assets/1d577ccb-3e2c-49a6-a56c-c4bfb6c5923a)
+>![Screenshot (774)](https://github.com/user-attachments/assets/1ce8bc4b-998e-4cc6-a55b-6ed877474f76)
 
 >Subscription Plans
->![Screenshot (769)](https://github.com/user-attachments/assets/b461c328-ce13-4451-bcd0-d0ece8cc3d93)
+>![Screenshot (775)](https://github.com/user-attachments/assets/42894142-3935-4829-b7d6-14824b9f3f41)
 
 >Properties listing
->![Screenshot (768)](https://github.com/user-attachments/assets/0fbe2ec7-9e94-4f83-b162-2d5ebe39bf71)
+>![Screenshot (776)](https://github.com/user-attachments/assets/fda16efa-2f26-4065-a11f-d56d35f0e607)
 
 >Roles
->![Screenshot (767)](https://github.com/user-attachments/assets/a2877c4f-9259-4c4e-b819-2b864480fa5c)
+>![Screenshot (777)](https://github.com/user-attachments/assets/de3686e3-ca54-4e62-a2e5-b57e0394d1f2)
+
 
 
 
