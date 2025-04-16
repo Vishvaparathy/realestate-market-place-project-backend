@@ -75,6 +75,7 @@ php artisan migrate
 php artisan serve
 
 
+
 ##  Screenshots
 
 >Real estate market place database
