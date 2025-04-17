@@ -73,51 +73,40 @@ php artisan migrate
 php artisan serve
 
 
-## Screenshots
+## 📸 Screenshots
 
-###  Realestate market place database
-![realestate_marketplace_database](https://github.com/user-attachments/assets/4eec34e2-c4ce-45fe-8648-8b6f393eb53e)
-
+###  Realestate Market Place Database
+![realestate_marketplace_database](screenshots/realestate_marketplace_database.png)
 
 ###  User Login & Registration
-![user_login_register](https://github.com/user-attachments/assets/d2fed5b3-237d-406a-8679-6422524a949b)
-
+![user_login_register](screenshots/user_login_register.png)
 
 ###  Property Listings 
-![property_listing](https://github.com/user-attachments/assets/b23c93f6-3434-4cbb-90bc-e1d95b7ff8a6)
+![property_listing](screenshots/property_listing.png)
 
+###  Subscription Plans
+![subscription_plans](screenshots/subscription_plans.png)
 
-###  Subscription plans
-![subscription_plans](https://github.com/user-attachments/assets/13dd8fc7-4bca-4302-84c6-64462b4b2dca)
+###  OTP Request
+![otp_request](screenshots/otp_request.png)
 
+###  User Roles
+![roles](screenshots/roles.png)
 
-### Otp Request
-![otp_request](https://github.com/user-attachments/assets/87cd38e5-16f8-4e0a-8858-9930fcce3f7f)
+###  Registration Testing
+![register](screenshots/register.png)
 
+###  Login Testing
+![login](screenshots/login.png)
 
-###  Uesr Roles
-![roles](https://github.com/user-attachments/assets/64a13066-e75e-4c68-9c52-40e15e2889d2)
+###  OTP Request Testing
+![otp](screenshots/otp.png)
 
+### Create Property Testing
+![create_property](screenshots/create_property.png)
 
-###  Registration testing
-![register](https://github.com/user-attachments/assets/950eccb4-05a1-4bba-952f-3a412445d747)
+### Property Listing Testing
+![property_testing](screenshots/property_testing.png)
 
-
-### Login testing
-<img width="960" alt="login" src="https://github.com/user-attachments/assets/97105d1a-1ee5-4a4f-9f0b-cf0b157755d4" />
-
-
-###  Otp request testing
-<img width="960" alt="otp" src="https://github.com/user-attachments/assets/91110c05-55a7-4e1e-a438-9eae043969a2" />
-
-
-###  Create propert testing
-<img width="960" alt="create_property" src="https://github.com/user-attachments/assets/5b1512fd-78b7-4dbe-a084-06c9ecdf0d2f" />
-
-
-###  Property listing testing
-![property_testing](https://github.com/user-attachments/assets/17a7a450-6497-4aae-b3c5-e9f03be13076)
-
-
-###  Logout testing
-![logout](https://github.com/user-attachments/assets/54734644-a681-4acb-a023-be8383c59dca)
+### Logout Testing
+![logout](screenshots/logout.png)
