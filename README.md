@@ -53,26 +53,6 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 
 ---
 
-## Getting Started (Local Setup)
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Vishvaparathy/realestate-market-place-project-backend.git
-cd realestate-market-place-project-backend
-
-2. Install dependencies:
-composer install
-
-3. Copy .env and generate key:
-cp .env.example .env
-php artisan key:generate
-
-4.Configure database in .env, then run:
-php artisan migrate
-5.Start the dev server:
-php artisan serve
-
-
 ## 📸 Screenshots
 
 ###  Realestate Market Place Database
@@ -110,3 +90,25 @@ php artisan serve
 
 ### Logout Testing
 ![logout](screenshots/logout.png)
+
+
+## Getting Started (Local Setup)
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Vishvaparathy/realestate-market-place-project-backend.git
+cd realestate-market-place-project-backend
+
+2. Install dependencies:
+composer install
+
+3. Copy .env and generate key:
+cp .env.example .env
+php artisan key:generate
+
+4.Configure database in .env, then run:
+php artisan migrate
+5.Start the dev server:
+php artisan serve
+
+
