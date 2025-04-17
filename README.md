@@ -45,7 +45,6 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 - Manage Listings & Requirements
 - View stats (Premium only)
 - Save Listings & manage Subscriptions
-- [realestate_marketplace_database](screenshots/realestate_marketplace_database.png)
 
 ###  Admin Panel
 - Moderate listings
