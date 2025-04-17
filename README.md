@@ -20,7 +20,7 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 - Guest Users
 - Registered Users (can post & search)
 - Admin (moderation, analytics)
-
+  
 ###  Property Listings
 - Post property for **Sale** or **Rent**
 - Mark as **Owner** or **Agent**
@@ -45,6 +45,7 @@ This is the backend API for the Real Estate Marketplace platform tailored to Sri
 - Manage Listings & Requirements
 - View stats (Premium only)
 - Save Listings & manage Subscriptions
+- [realestate_marketplace_database](screenshots/realestate_marketplace_database.png)
 
 ###  Admin Panel
 - Moderate listings
